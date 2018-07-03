@@ -1,0 +1,452 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>bcenter商户中心</title>
+<link rel="stylesheet" rev="stylesheet" type="text/css" href="../css/global.css" />
+<style>
+body{background:none;}
+h1{ font-size:16px;}
+.warp{ padding:50px; position:relative; border-bottom:2px dotted #ccc}
+.pop_mod{ position:static;}
+</style>
+</head>
+
+<body>
+<div class="warp">
+	<h1>对话框-成功</h1>
+	<div class="pop_mod w_530">
+		<div class="pop_warp">
+			<div class="pop_hd">
+				<h6>成功对话框标题</h6>
+				<span class="close">关闭</span>
+			</div>
+			<div class="pop_con">
+				<div class="pop_alert">
+					<p><span class="mgr10">对话框文案</span><span class="success">补充状态</span></p>
+					<div class="tit">对话框大标题</div>
+					<p>对话框文案对话框文案</p>
+					<div class="pop_alert_icon smile_face"></div>
+				</div>
+				<div class="pop_alert_action">
+					<button type="submit" class="btn btn_huge mgr8">确认</button>
+					<button type="submit" class="btn btn_link">取消</button>
+				</div>
+			</div>
+			<div class="pop_ft"></div>
+		</div>
+	</div>
+</div>
+<div class="warp">
+	<h1>对话框-错误</h1>
+	<div class="pop_mod w_530">
+		<div class="pop_warp">
+			<div class="pop_hd">
+				<h6>错误对话框标题</h6>
+				<span class="close">关闭</span>
+			</div>
+			<div class="pop_con">
+				<div class="pop_alert">
+					<p><span class="mgr10">对话框文案</span><span class="fail">补充状态</span></p>
+					<div class="tit">对话框大标题</div>
+					<p>对话框文案对话框文案</p>
+					<div class="pop_alert_icon cry_face"></div>
+				</div>
+				<div class="pop_alert_action">
+					<button type="submit" class="btn btn_huge mgr8">确认</button>
+					<button type="submit" class="btn btn_link">取消</button>
+				</div>
+			</div>
+			<div class="pop_ft"></div>
+		</div>
+	</div>
+</div>
+
+<div class="warp">
+	<h1>对话框-警告</h1>
+	<div class="pop_mod w_530">
+		<div class="pop_warp">
+			<div class="pop_hd">
+				<h6>警告对话框标题</h6>
+				<span class="close">关闭</span>
+			</div>
+			<div class="pop_con">
+				<div class="pop_alert">
+					<p><span class="mgr10">对话框文案</span><span class="impt">补充状态</span></p>
+					<div class="tit">对话框大标题</div>
+					<p>对话框文案对话框文案</p>
+					<div class="pop_alert_icon alert_face"></div>
+				</div>
+				<div class="pop_alert_action">
+					<button type="submit" class="btn btn_huge mgr8">确认</button>
+					<button type="submit" class="btn btn_link">取消</button>
+				</div>
+			</div>
+			<div class="pop_ft"></div>
+		</div>
+	</div>
+</div>
+
+
+
+<div class="warp" style="display:none;">
+	<h1>查看联系人-搜索有结果</h1>
+	
+	<div class="pop_mod w_530">
+		<div class="pop_warp">
+			<div class="pop_hd">
+				<h6>查找联系人</h6>
+				<span class="close">关闭</span>
+			</div>
+			<div class="pop_con">
+				<div class="val_group clearfix">
+					<label class="val_label">查找联系人：</label>
+					<div class="val"><input type="text" class="input_text mgr10" /><button type="submit" class="btn btn_gary">查询</button></div>
+				</div>
+				<table class="table">
+					<colgroup>
+						<col class="w_100" />
+						<col class="w_120" />
+						<col class="w_160" />
+						<col class="w_100" />
+					</colgroup>
+					<tr>
+						<th>姓名</th>
+						<th>QQ号</th>
+						<th>手机号</th>
+						<th class="last">操作</th>
+					</tr>
+					<tr class="odd">
+						<td class="tal_l"><p><input type="checkbox" /></p></td>
+						<td class="tal_l"><p>12346533</p></td>
+						<td class="tal_l"><p>13888888888</p></td>
+						<td><p class="action"><a href="#">选择</a></p></td>
+					</tr>
+					<tr>
+						<td class="tal_l"><p><input type="checkbox" /></p></td>
+						<td class="tal_l"><p>12346533</p></td>
+						<td class="tal_l"><p>13888888888</p></td>
+						<td><p class="action"><a href="#">选择</a></p></td>
+					</tr>
+					<tr class="odd">
+						<td class="tal_l"><p><input type="checkbox" /></p></td>
+						<td class="tal_l"><p>12346533</p></td>
+						<td class="tal_l"><p>13888888888</p></td>
+						<td><p class="action"><a href="#">选择</a></p></td>
+					</tr>
+					<tr class="hover">
+						<td class="tal_l"><p><input type="checkbox" /></p></td>
+						<td class="tal_l"><p>12346533</p></td>
+						<td class="tal_l"><p>13888888888</p></td>
+						<td><p class="action"><a href="#">选择</a></p></td>
+					</tr>
+					<tr>
+						<td class="tal_l"><p><input type="checkbox" /></p></td>
+						<td class="tal_l"><p>12346533</p></td>
+						<td class="tal_l"><p>13888888888</p></td>
+						<td><p class="action"><a href="#">选择</a></p></td>
+					</tr>
+				</table>
+				<!--翻页控件-->
+				<div class="pagination">
+					<ul>
+						<li class="disabled"><a href="#">上一页</a></li>
+						<li class="current"><a href="#">1</a></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#">4</a></li>
+						<li><a href="#">5</a></li>
+						<li><a href="#">下一页</a></li>
+					</ul>
+				</div>
+				<!--翻页控件-->
+			</div>
+			<div class="pop_ft"></div>
+		</div>
+	</div>
+
+</div>
+<div class="warp"style="display:none;">
+	<h1>查看联系人-搜索无结果</h1>
+	
+	<div class="pop_mod w_530">
+		<div class="pop_warp">
+			<div class="pop_hd">
+				<h6>查找联系人</h6>
+				<span class="close">关闭</span>
+			</div>
+			<div class="pop_con">
+				<div class="val_group clearfix">
+					<label class="val_label">查找联系人：</label>
+					<div class="val"><input type="text" class="input_text mgr10" /><button type="submit" class="btn btn_gary">查询</button></div>
+				</div>
+				<div class="minh">
+					<span class="tips icons_tips_waring">您输入的信息无法匹配到相应责任人，请重新尝试！</span>
+				</div>
+			</div>
+			<div class="pop_ft"></div>
+		</div>
+	</div>
+</div>
+<div class="warp"style="display:none;">
+	<h1>关联商家</h1>
+	
+	<div class="pop_mod w_700">
+		<div class="pop_warp">
+			<div class="pop_hd">
+				<h6>关联商家</h6>
+				<span class="close">关闭</span>
+			</div>
+			<div class="pop_con">
+				<form class="clearfix">
+					<div class="val_group fl">
+						<label class="val_label">已关联商家：</label>
+						<div class="val">
+							<ul class="del_list">
+								<li>辛香汇（浦东店）<i class="icon_del">删除</i></li>
+								<li>辛香汇（浦东店）<i class="icon_del">删除</i></li>
+							</ul>
+						</div>
+					</div>
+					<div class="val_group fl w_340 clear">
+						<label class="val_label">地区：</label>
+						<div class="val">
+						<div class="select_mod select_mod_short mgr20">
+									<p>上海</p>
+									<ul class="dropdown_menu">
+										<li><a href="#">城市1</a></li>
+										<li><a href="#">城市2</a></li>
+										<li><a href="#">城市3</a></li>
+										<li><a href="#">城市4</a></li>
+									</ul>
+								</div>
+								
+								<div class="select_mod select_mod_short">
+									<p>徐汇区</p>
+									<ul class="dropdown_menu">
+										<li><a href="#">区域1</a></li>
+										<li><a href="#">区域2</a></li>
+										<li><a href="#">区域3</a></li>
+										<li><a href="#">区域4</a></li>
+									</ul>
+								</div>
+								</div>
+					</div>
+					<div class="val_group fl w_340">
+						<label class="val_label">关键字：</label>
+						<div class="val"><input type="text" class="input_text text_default" value="请输入商家名，支持模糊匹配" /></div>
+					</div>
+					<div class="val_group fl w_340 ">
+							<label class="val_label">类目：</label>
+							<div class="val">
+								<div class="select_mod select_mod_short mgr20">
+									<p>美食</p>
+									<ul class="dropdown_menu">
+										<li><a href="#">美食1</a></li>
+										<li><a href="#">美食2</a></li>
+										<li><a href="#">美食3</a></li>
+										<li><a href="#">美食4</a></li>
+									</ul>
+								</div>
+								
+								<div class="select_mod select_mod_short">
+									<p>火锅</p>
+									<ul class="dropdown_menu">
+										<li><a href="#">火锅1</a></li>
+										<li><a href="#">火锅2</a></li>
+										<li><a href="#">火锅3</a></li>
+										<li><a href="#">火锅4</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					<div class="val_group fl w_340">
+						<label class="val_label">商家ID：</label>
+						<div class="val"><input type="text" class="input_text text_default" value="可直接输入商家ID查询" /></div>
+					</div>
+					<div class="val_action pdl40">
+						<button type="submit" class="btn">搜索</button>
+					</div>
+				</form>
+				<div class="query_title">
+					<h3 class="fl">共查询到 <strong class="impt">304312</strong> 个符合要求的结果</h3>
+					<p class="fr">没有符合要求的商家？<a href="#">创建新商家</a></p>
+				</div>
+				<table class="table">
+					<colgroup>
+						<col class="w_40" />
+						<col class="w_140" />
+						<col class="w_100" />
+						<col class="w_120" />
+						<col class="w_140" />
+						<col class="w_140" />
+					</colgroup>
+					<tr>
+						<th><input type="checkbox" /></th>
+						<th>类目</th>
+						<th>商家名称/ID</th>
+						<th>电话/客服QQ</th>
+						<th>网址/地址</th>
+						<th class="last">操作</th>
+					</tr>
+					<tr class="odd">
+						<td class="tal_l"><p><input type="checkbox" /></p></td>
+						<td class="tal_l"><p>美食-自助/海鲜-自助餐</p></td>
+						<td class="tal_l"><p>阿迪达斯官网<br />ID：3217321</p></td>
+						<td class="tal_l"><p>电话：68381031<br />客服QQ：10000</p></td>
+						<td class="tal_l"><p>www.qq.com<br />tuan.qq.com</p></td>
+						<td>
+						<p class="action">
+						<a href="#">查看</a>
+						<a href="#">修改</a>
+						<a href="#">取消关联</a>
+						</p>
+						</td>
+					</tr>
+					<tr>
+						<td class="tal_l"><p><input type="checkbox" /></p></td>
+						<td class="tal_l"><p>美食-自助/海鲜-自助餐</p></td>
+						<td class="tal_l"><p>阿迪达斯官网<br />ID：3217321</p></td>
+						<td class="tal_l"><p>电话：68381031<br />客服QQ：10000</p></td>
+						<td class="tal_l"><p>www.qq.com<br />tuan.qq.com</p></td>
+						<td>
+						<p class="action">
+						<a href="#">查看</a>
+						<a href="#">修改</a>
+						<a href="#">取消关联</a>
+						</p>
+						</td>
+					</tr>
+					<tr class="odd">
+						<td class="tal_l"><p><input type="checkbox" /></p></td>
+						<td class="tal_l"><p>美食-自助/海鲜-自助餐</p></td>
+						<td class="tal_l"><p>阿迪达斯官网<br />ID：3217321</p></td>
+						<td class="tal_l"><p>电话：68381031<br />客服QQ：10000</p></td>
+						<td class="tal_l"><p>www.qq.com<br />tuan.qq.com</p></td>
+						<td>
+						<p class="action">
+						<a href="#">查看</a>
+						<a href="#">修改</a>
+						<a href="#">取消关联</a>
+						</p>
+						</td>
+					</tr>
+					<tr class="hover">
+						<td class="tal_l"><p><input type="checkbox" /></p></td>
+						<td class="tal_l"><p>美食-自助/海鲜-自助餐</p></td>
+						<td class="tal_l"><p>阿迪达斯官网<br />ID：3217321</p></td>
+						<td class="tal_l"><p>电话：68381031<br />客服QQ：10000</p></td>
+						<td class="tal_l"><p>www.qq.com<br />tuan.qq.com</p></td>
+						<td>
+						<p class="action">
+						<a href="#">查看</a>
+						<a href="#">修改</a>
+						<a href="#">取消关联</a>
+						</p>
+						</td>
+					</tr>
+					<tr>
+						<td class="tal_l"><p><input type="checkbox" /></p></td>
+						<td class="tal_l"><p>美食-自助/海鲜-自助餐</p></td>
+						<td class="tal_l"><p>阿迪达斯官网<br />ID：3217321</p></td>
+						<td class="tal_l"><p>电话：68381031<br />客服QQ：10000</p></td>
+						<td class="tal_l"><p>www.qq.com<br />tuan.qq.com</p></td>
+						<td>
+						<p class="action">
+						<a href="#">查看</a>
+						<a href="#">修改</a>
+						<a href="#">关联</a></p>
+						</td>
+					</tr>
+				</table>
+				<!--翻页控件-->
+				<div class="pagination">
+					<ul>
+						<li class="disabled"><a href="#">上一页</a></li>
+						<li class="current"><a href="#">1</a></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#">4</a></li>
+						<li><a href="#">5</a></li>
+						<li><a href="#">下一页</a></li>
+					</ul>
+				</div>
+				<!--翻页控件-->
+			</div>
+			<div class="pop_ft"></div>
+		</div>
+	</div>
+</div>
+
+
+<div class="warp"style="display:none;">
+	<h1>下发手机</h1>
+	<div class="pop_mod w_400">
+		<div class="pop_warp">
+			<div class="pop_hd">
+				<h6>下发手机</h6>
+				<span class="close">关闭</span>
+			</div>
+			<div class="pop_con">
+				<div class="val_group clearfix">
+					<label class="val_label">将信息下发至该手机号码：</label>
+					<div class="val"><input type="text" class="input_text nofl" /></div>
+				</div>
+				
+				<div class="val_action">
+					<button type="submit" class="btn">发送</button>
+				</div>
+			</div>
+			<div class="pop_ft"></div>
+		</div>
+	</div>
+</div>
+<div class="warp"style="display:none;">
+	<h1>申请退款</h1>
+	<div class="pop_mod w_400">
+		<div class="pop_warp">
+			<div class="pop_hd">
+				<h6>申请退款</h6>
+				<span class="close">关闭</span>
+			</div>
+			<div class="pop_con">
+				
+				<div class="val_group clearfix">
+					<label class="val_label">退款原因：</label>
+					<div class="val w_300">
+						<div class="select_mod select_mod_longer">
+							<p>全部</p>
+							<ul class="dropdown_menu">
+								<li class="sep">5</li>
+								<li><a href="#">QQ电影1</a></li>
+								<li><a href="#">QQ电影2</a></li>
+								<li><a href="#">QQ电影3</a></li>
+								<li><a href="#">QQ电影4</a></li>
+							</ul>
+						</div>
+						<div class="clearfix"><textarea class="w_290 text_default" rows="4" >请输入退款理由</textarea></div>
+						<div class="clearfix"><input name="" type="checkbox" value=""><label>连邮费一起退</label></div>
+					</div>
+				</div>
+				
+				<div class="val_action">
+					<button type="submit" class="btn">确定</button>
+				</div>
+			</div>
+			<div class="pop_ft"></div>
+		</div>
+	</div>
+</div>
+
+
+
+<script type="text/javascript" src="http://imgcache.qq.com/tuangou/cms/img/201203/jquery/171min/jquery.js" charset="utf-8"></script>
+<script language="javascript">
+	$(document).ready(function() {
+		$(".select_mod p").click(function(){
+			$(this).parent(".select_mod").toggleClass("open");
+		})
+	})
+</script>
+</body>
+</html>

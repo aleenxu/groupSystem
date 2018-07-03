@@ -1,0 +1,79 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>bcenter商户中心</title>
+<link rel="stylesheet" rev="stylesheet" type="text/css" href="../css/global.css" />
+</head>
+
+<body>
+	<div class="head clearfix">
+		<div class="logo_1"><a href="#">高朋</a></div>
+		<div class="logo_2">商户中心</div>
+		<div class="top_tool">
+			<span class="line_right_white">hi,username <a href="#">退出</a></span>
+			<span><a href="#">高朋首页</a></span>
+		</div>
+	</div>
+	<div class="content clearfix">
+		<div class="cont">
+			<div class="cont_title">修改密码</div>
+      
+			<!--筛选查询 开始-->
+			<div class="query_box query_titan" >
+				<form class="clearfix">
+					<div class="val_group">
+						<label class="val_label">用户名：</label>
+						<div class="val"><p>username用户名</p></div>
+					</div>					
+					<div class="val_group">
+						<label class="val_label">新密码：</label>
+						<div class="val"><input type="text" class="input_text text_default" value="输入密码" /></div>
+					</div>
+          <div class="val_group">
+						<label class="val_label">确认新密码：</label>
+						<div class="val"><input type="text" class="input_text text_default" value="输入密码" /></div>
+					</div>
+					<div class="val_action"><button type="submit" class="btn btn_huge">修 改</button></div>
+				</form>
+			</div>
+			<!--筛选查询 结束-->
+      
+      
+      
+		</div>
+		<div class="sidebar">
+			<ul>
+				<li class="current"><a href="#"><i class="icon"></i>验证团购券</a></a></li>
+				<li><a href="#"><i class="icon"></i>团购数据</a></li>
+				<li><a href="#"><i class="icon"></i>商家账单</a></li>
+				<li><a href="#"><i class="icon"></i>其他工具</a></li>
+			</ul>
+			<div class="shadow"></div>
+		</div>
+	</div>
+	<div class="foot"></div>
+	
+
+<script type="text/javascript" src="http://imgcache.qq.com/tuangou/cms/img/201203/jquery/171min/jquery.js" charset="utf-8"></script>
+<script language="javascript">
+	$(document).ready(function() {
+		$(".select_city_mod input").click(function(){
+			$(this).parent(".select_city_mod").toggleClass("open");
+		})
+		$(".sel_date .input_text ").click(function(){
+			$(this).parent(".sel_date").toggleClass("open");
+		})
+		$(".select_mod p").click(function(){
+			$(this).parent(".select_mod").toggleClass("open");
+		})
+		$(".tab_menu li").click(function(){
+			$(this).addClass("current").siblings("li").removeClass("current");
+			var num = $(this).index();
+			$(".query_box").eq(num).show().siblings(".query_box").hide()
+			$(".query_result_box").eq(num).show().siblings(".query_result_box").hide()
+		})
+	})
+</script>
+</body>
+</html>
